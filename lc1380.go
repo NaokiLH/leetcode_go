@@ -3,7 +3,6 @@ package main
 func luckyNumbers(matrix [][]int) []int {
 
 	ans := make([]int, 0)
-
 	for i := range matrix {
 		res := 0x3f3f3f3f
 		resj := 0
